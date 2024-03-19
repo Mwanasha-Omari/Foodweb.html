@@ -1,0 +1,139 @@
+#item{
+display: flex;
+justify-content: space-evenly;
+justify-content: space-evenly;
+background-color: rgb(39, 38, 38);
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+color: white;
+margin-top: 0px;
+height: 60px;
+width: 90%;
+padding-top: 50px;
+justify-content: space-around;
+padding-bottom: 20px;
+}
+#black{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#number{
+display: flex;
+gap:50px;
+
+}
+#number span{
+text-decoration: underline orangered;
+
+
+}
+#for button{
+background-color: transparent;
+height: 50px;
+width: 100px;
+color: white;
+border-radius: 10px;
+border-color: orangered;
+margin-bottom: 50px;
+transition-duration: 0.5s;
+cursor: pointer;
+
+}
+#pick img{
+margin-bottom: 50px;
+
+}
+#odd span{
+    color: orangered;
+    font-size: 100px;
+}
+#odd p{
+color: grey;
+
+
+}
+#odd button{
+background-color: orangered;
+color: white;
+height: 50px;
+width: 200px;
+border-radius: 15px;
+border: none;
+}
+#odd h3{
+color: grey;
+}
+#mark img{
+height: 60px;
+width:60px;
+border-radius:50%;
+gap: 30px;
+ object-fit: cover; 
+/* I need to style these circles */
+
+}
+#odd label{
+font-size: 100px;
+
+}
+#made img{
+width: 20px;
+height: 20px;
+padding-bottom: 100px;
+padding-left: 300px;
+margin-bottom: 50px;
+
+
+}
+#mark{
+/* display: flex; */
+/* justify-content:space non; */
+
+}
+#root{
+ display: flex;  
+  
+}
+#grey{
+    color: grey;
+}
+#two img{
+height: 500px;
+width: 500px;
+border-radius: 50%;
+ object-fit: cover; 
+color: orangered;
+padding-bottom: 20px;
+padding-top: 20px;
+padding-right: 20px;
+padding-left: 20px;
+margin-top: 30px;
+border-style:dashed ;
+
+
+}
+.tool{
+    /* position: absolute; */
+    left: 55px;
+}
+
+#even{
+display: flex;
+justify-content: space-evenly;
+justify-content: space-around;
+}
+#main2 button{
+height: 20px;
+height: 50px;
+margin-top: 100%;
+
+
+}
+#main2 img{
+height: 20px;
+width: 20px;
+
+}
+
