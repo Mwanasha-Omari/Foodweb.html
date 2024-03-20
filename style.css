@@ -111,7 +111,8 @@ padding-right: 20px;
 padding-left: 20px;
 margin-top: 30px;
 border-style:dashed ;
-
+scrollbar-arrow-color: orangered;
+scrollbar-arrow: dotted;
 
 }
 .tool{
@@ -123,11 +124,15 @@ border-style:dashed ;
 display: flex;
 justify-content: space-evenly;
 justify-content: space-around;
+justify-content: center;
 }
 #main2 button{
 height: 20px;
 height: 50px;
 margin-top: 100%;
+border: none;
+background-color: rgb(227, 234, 241);
+padding-bottom: 10px;
 
 
 }
@@ -136,4 +141,201 @@ height: 20px;
 width: 20px;
 
 }
+#fast img{
+height: 20px;
+width: 20px;
 
+}
+#made2 img{
+height: 20px;
+width: 20px;
+
+}
+#made2 button{
+ height: 40px;  
+ width: 130px; 
+ border: none;
+ background-color: rgb(227, 234, 241);
+ margin-top: 20px;
+ padding-bottom: 10px;
+}
+
+#fast button{
+height: 40px;
+width: 130px;
+background-color: rgb(227, 234, 241);
+border: none;
+padding-bottom: 10px;
+}
+/* #complete{
+display: flex;
+justify-content: flex-end;
+
+} */
+
+
+
+#eat img{
+height: 40px;
+width: 40px;
+object-fit: cover;
+padding-right:70px;
+
+background-position: left 20px;
+    
+}
+/* #eat{
+height: 50px;
+    background-color: rgb(255, 254, 252);
+    width: 200px;
+} */
+
+
+
+
+
+
+#stars img{
+    height: 15px;
+    width: 15px;
+    
+
+}
+#rate button{
+height: 70px;
+width:150px ;
+
+}
+#rate span{
+color: orange;
+
+}
+#rate{
+ display: flex;   
+}
+#circle img{
+border-radius: 50%;
+height: 40px;
+width: 40px;
+object-fit: cover;
+border:solid 1px;
+border-color: rgb(255, 81, 0);
+
+
+}
+#set{
+transform: rotate(220deg);
+
+}
+#set img{
+height: 120px;
+width: 150px;
+object-fit: cover;
+
+}
+#menu{
+display: flex;
+justify-content: space-around;
+justify-content: space-evenly;
+justify-content: center;
+
+}
+#contain1 img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+#contain2 img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+#contain3 img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+#contain4 img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: pink;
+    background: height 200px;;
+    
+}
+#call{
+display: flex;
+justify-content: space-around;
+
+}
+#form{
+display: flex;
+justify-content: space-evenly;
+justify-content: space-around;
+justify-content: center;
+
+}
+#hide{
+text-align: center;
+font-size: larger;
+
+}
+#major span{
+color: grey;
+
+
+}
+
+  #many img{
+height: 400px;
+width: 400px;
+object-fit: cover;
+  }
+
+#hide p{
+text-align: center;
+font-size: x-large;
+padding-bottom: 100px;
+}
+#container{
+padding-left: 200px;
+text-align: center;
+
+}
+#major p{
+font-size: large;
+
+}
+#cons p{
+font-weight: bold;
+
+}
+
+#formation h3{
+color: black;
+font-family:"League Gothic", Impact, sans-serif ;
+letter-spacing:2px ;
+text-transform: capitalize;
+text-shadow: 0px 0px 7px;
+font-size:60px;
+
+}
+
+h3 {
+font-family: monospace;
+font-size: 60px;
+animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0%{color: orange;}  
+  50%{color: orangered;}
+  100%{color: orange;}
+}
