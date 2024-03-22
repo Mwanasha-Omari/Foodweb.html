@@ -538,4 +538,80 @@ color:orangered ;
 
 }
 
+#them{
+display: flex;
+justify-content: center;
+text-align: center;
+gap: 20px;
+justify-content: space-around;
+font-size: x-small;
+}
+#reel img{
+height: 50px;
+width: 50px;
+object-fit: cover;
+border-radius: 50%;
 
+
+}
+
+#bright{
+display: flex;
+gap: 20px;
+justify-content: space-evenly;
+
+}
+#icons img{
+height: 50px;
+width: 50px;
+
+}
+#fame{
+display: flex;
+gap: 50px;
+color: white;
+margin-top: 100px;
+
+
+}
+#color span{
+font-size: large;
+font-weight:bold ;
+
+}
+#icons a{
+color: orangered;
+text-decoration: none;
+
+}
+#take{
+background-color:rgb(39, 38, 38);
+
+} 
+#pace span{
+font-weight: bold;
+font-size: large;
+word-spacing: normal;
+
+}
+#icons span{
+color: white;
+font-size: large;
+font-weight: bold;
+margin-top: 200px;
+
+
+}
+#icons p{
+color: white;
+margin-top: 200px;
+    
+}
+#put p{
+color :white;
+
+}
+#vans button{
+height: 50px;
+width: 500px;
+}
