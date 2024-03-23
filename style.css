@@ -564,6 +564,7 @@ justify-content: space-evenly;
 #icons img{
 height: 50px;
 width: 50px;
+gap: 20px;
 
 }
 #fame{
@@ -614,4 +615,13 @@ color :white;
 #vans button{
 height: 50px;
 width: 500px;
+}
+#put img{
+margin-top: 100px;
+
+
+}
+#tree span{
+margin-top: 100px;
+
 }
