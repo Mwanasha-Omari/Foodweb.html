@@ -8,3 +8,5 @@ let output=day+ '/'+month + '/'+year +'/';
 
 
 console.log(output);
+
+
