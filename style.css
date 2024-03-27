@@ -54,6 +54,18 @@ color: grey;
 
 
 }
+#offer{
+color: orangered;
+margin-bottom: 20px;
+
+}
+#ab figcaption{
+font-weight: bold;
+color: yellow;
+}
+
+
+
 #odd button{
 background-color: orangered;
 color: white;
@@ -71,7 +83,6 @@ width:60px;
 border-radius:50%;
 gap: 30px;
  object-fit: cover; 
-/* I need to style these circles */
 
 }
 #odd label{
@@ -87,11 +98,9 @@ margin-bottom: 50px;
 
 
 }
-#mark{
-/* display: flex; */
-/* justify-content:space non; */
 
-}
+
+
 #root{
  display: flex;  
   
@@ -112,11 +121,11 @@ padding-left: 20px;
 margin-top: 30px;
 border-style:dashed ;
 scrollbar-arrow-color: orangered;
-scrollbar-arrow: dotted;
+
 
 }
 .tool{
-    /* position: absolute; */
+    
     left: 55px;
 }
 
@@ -167,12 +176,6 @@ background-color: rgb(227, 234, 241);
 border: none;
 padding-bottom: 10px;
 }
-/* #complete{
-display: flex;
-justify-content: flex-end;
-
-} */
-
 
 
 #eat img{
@@ -189,10 +192,23 @@ height: 50px;
     background-color: rgb(255, 254, 252);
     width: 200px;
 } */
+#maker{
+display: flex;
+gap: 400px;
+justify-content: space-around;
+}
 
+#menu{
+color: orangered;
+font-weight:bold ;
+font-size: larger;
 
-
-
+}
+hr{
+    width: 10px;
+    color: black;
+   
+}
 
 
 #stars img{
@@ -339,6 +355,16 @@ animation: color-change 1s infinite;
   50%{color: orangered;}
   100%{color: orange;}
 }
+
+@keyframes color-background{
+0%{color:blue;}
+50%{color: aqua;}
+100%{color: cadetblue;}
+0%{color: aquamarine;}
+
+
+}
+
 
 #value img{
 height: 70px;
@@ -544,7 +570,8 @@ justify-content: center;
 text-align: center;
 gap: 20px;
 justify-content: space-around;
-font-size: x-small;
+font-size: large;
+
 }
 #reel img{
 height: 50px;
@@ -566,7 +593,14 @@ height: 50px;
 width: 50px;
 gap: 20px;
 
+
 }
+#icons{
+margin-bottom: 100px;
+
+}
+
+
 #fame{
 display: flex;
 gap: 50px;
@@ -587,6 +621,8 @@ text-decoration: none;
 }
 #take{
 background-color:rgb(39, 38, 38);
+margin-bottom:100px ;
+margin-bottom:50px;
 
 } 
 #pace span{
@@ -595,6 +631,10 @@ font-size: large;
 word-spacing: normal;
 
 }
+ #pace{
+margin-bottom: 50px;
+
+} 
 #icons span{
 color: white;
 font-size: large;
@@ -618,6 +658,7 @@ width: 500px;
 }
 #put img{
 margin-top: 100px;
+
 
 
 }
@@ -650,5 +691,19 @@ transition: 0.3s;
  #closebtn:hover{
     color: grey;
  }
-  
- 
+ #master img{
+height: 400px;
+width: 400px;
+
+
+ }
+#major{
+    display: flex;
+gap:20px;
+
+
+}
+#soon {
+
+    margin-right: 70px;
+}
