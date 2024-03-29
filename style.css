@@ -707,3 +707,30 @@ gap:20px;
 
     margin-right: 70px;
 }
+#vans input{
+width: 200px;
+
+}
+/* forms */
+#form{
+background-color: rgb(253, 218, 202); 
+display: flex;
+gap: 50px;
+height: 500px;
+}
+input{
+width: 300px;
+height: 40px;
+margin-top: 100px;
+
+}
+#welcome span{
+display: flex;
+justify-content: center;
+
+}
+#form{
+background-image: url(download.png);
+opacity: 0.5;
+background-repeat: repeat;
+}
