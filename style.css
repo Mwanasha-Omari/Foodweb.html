@@ -653,8 +653,12 @@ color :white;
 
 }
 #vans button{
-height: 50px;
-width: 500px;
+height: 30px;
+width: 100px;
+border-radius: 10px;
+color: white;
+background-color: orangered;
+border: none;
 }
 #put img{
 margin-top: 100px;
@@ -711,26 +715,744 @@ gap:20px;
 width: 200px;
 
 }
-/* forms */
-#form{
-background-color: rgb(253, 218, 202); 
-display: flex;
-gap: 50px;
-height: 500px;
-}
-input{
-width: 300px;
-height: 40px;
-margin-top: 100px;
-border-radius: 10px;
+#vans a{
+ text-decoration: none; 
+ color: beige;  
+
 
 }
-#welcome span{
-display: flex;
 
-}
-#form{
-background-image: url(download.png);
-opacity: 0.;
-background-repeat: repeat;
-}
+@media only screen and (max-width:920px){
+
+
+    #item{
+        display: flex;
+        justify-content: space-evenly;
+        justify-content: space-evenly;
+        background-color: rgb(39, 38, 38);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        color: white;
+        margin-left: 100px;
+        height: 60px;
+        width: 900%;
+        padding-top: 50px;
+        justify-content: space-around;
+        justify-content: center;
+        padding-bottom: 20px;
+        }
+        #black{
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+        }
+        
+        #number{
+        display: flex;
+        gap:50px;
+        
+        }
+        #number span{
+        text-decoration: underline orangered;
+        
+        
+        }
+        #for button{
+        background-color: transparent;
+        height: 50px;
+        width: 100px;
+        color: white;
+        border-radius: 10px;
+        border-color: orangered;
+        margin-bottom: 50px;
+        transition-duration: 0.5s;
+        cursor: pointer;
+        
+        }
+        #pick img{
+        margin-bottom: 50px;
+        
+        }
+        #odd span{
+            color: orangered;
+            font-size: 100px;
+        }
+        #odd p{
+        color: grey;
+        
+        
+        }
+        #offer{
+        color: orangered;
+        margin-bottom: 20px;
+        
+        }
+        #ab figcaption{
+        font-weight: bold;
+        color: yellow;
+        }
+        #odd{
+height: 100px;
+width: 100px;
+margin-right: 70px;
+        }
+        
+        
+        #odd button{
+        background-color: orangered;
+        color: white;
+        height: 50px;
+        width: 200px;
+        border-radius: 15px;
+        border: none;
+        }
+        #odd h3{
+        color: grey;
+        }
+        #mark img{
+        height: 60px;
+        width:60px;
+        border-radius:50%;
+        gap: 30px;
+         object-fit: cover; 
+        
+        }
+        #odd label{
+        font-size: 100px;
+        
+        }
+        #made img{
+        width: 20px;
+        height: 20px;
+        padding-bottom: 100px;
+        padding-left: 300px;
+        margin-bottom: 50px;
+        
+        
+        }
+        
+        
+        
+        #root{
+         display: flex;  
+          
+        }
+        #grey{
+            color: grey;
+        }
+        #two img{
+        height: 500px;
+        width: 500px;
+        border-radius: 50%;
+         object-fit: cover; 
+        color: orangered;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-top: 30px;
+        border-style:dashed ;
+        scrollbar-arrow-color: orangered;
+        
+        
+        }
+        .tool{
+            
+            left: 55px;
+        }
+        
+        #even{
+        display: flex;
+        justify-content: space-evenly;
+        justify-content: space-around;
+        justify-content: center;
+        }
+        #main2 button{
+        height: 20px;
+        height: 50px;
+        margin-top: 100%;
+        border: none;
+        background-color: rgb(227, 234, 241);
+        padding-bottom: 10px;
+        
+        
+        }
+        #main2 img{
+        height: 20px;
+        width: 20px;
+        
+        }
+        #fast img{
+        height: 20px;
+        width: 20px;
+        
+        }
+        #made2 img{
+        height: 20px;
+        width: 20px;
+        
+        }
+        #made2 button{
+         height: 40px;  
+         width: 130px; 
+         border: none;
+         background-color: rgb(227, 234, 241);
+         margin-top: 20px;
+         padding-bottom: 10px;
+        }
+        
+        #fast button{
+        height: 40px;
+        width: 130px;
+        background-color: rgb(227, 234, 241);
+        border: none;
+        padding-bottom: 10px;
+        }
+        
+        
+        #eat img{
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        padding-right:70px;
+        
+        background-position: left 20px;
+            
+        }
+        /* #eat{
+        height: 50px;
+            background-color: rgb(255, 254, 252);
+            width: 200px;
+        } */
+        #maker{
+        display: flex;
+        gap: 400px;
+        justify-content: space-around;
+        }
+        
+        #menu{
+        color: orangered;
+        font-weight:bold ;
+        font-size: larger;
+        
+        }
+        hr{
+            width: 10px;
+            color: black;
+           
+        }
+        
+        
+        #stars img{
+            height: 15px;
+            width: 15px;
+            
+        
+        }
+        #rate button{
+        height: 70px;
+        width:150px ;
+        
+        }
+        #rate span{
+        color: orange;
+        
+        }
+        #rate{
+         display: flex;   
+        }
+        #circle img{
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        border:solid 1px;
+        border-color: rgb(255, 81, 0);
+        
+        
+        }
+        #set{
+        transform: rotate(220deg);
+        
+        }
+        #set img{
+        height: 120px;
+        width: 150px;
+        object-fit: cover;
+        
+        }
+        #menu{
+        display: flex;
+        justify-content: space-around;
+        justify-content: space-evenly;
+        justify-content: center;
+        
+        }
+        #contain1 img{
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            
+        }
+        #contain2 img{
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            
+        }
+        #contain3 img{
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            
+        }
+        #contain4 img{
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            background-color: pink;
+            background: height 200px;;
+            
+        }
+        #call{
+        display: flex;
+        justify-content: space-around;
+        
+        }
+        #form{
+        display: flex;
+        justify-content: space-evenly;
+        justify-content: space-around;
+        justify-content: center;
+        
+        }
+        #hide{
+        text-align: center;
+        font-size: larger;
+        
+        }
+        #major span{
+        color: grey;
+        
+        
+        }
+        
+          #many img{
+        height: 400px;
+        width: 400px;
+        object-fit: cover;
+          }
+        
+        #hide p{
+        text-align: center;
+        font-size: x-large;
+        padding-bottom: 100px;
+        }
+        #container{
+        padding-left: 200px;
+        text-align: center;
+        
+        }
+        #major p{
+        font-size: large;
+        
+        }
+        #cons p{
+        font-weight: bold;
+        
+        }
+        
+        #formation h3{
+        color: black;
+        font-family:"League Gothic", Impact, sans-serif ;
+        letter-spacing:2px ;
+        text-transform: capitalize;
+        text-shadow: 0px 0px 7px;
+        font-size:60px;
+        
+        }
+        
+        h3 {
+        font-family: monospace;
+        font-size: 60px;
+        animation: color-change 1s infinite;
+        }
+        
+        @keyframes color-change {
+          0%{color: orange;}  
+          50%{color: orangered;}
+          100%{color: orange;}
+        }
+        
+        @keyframes color-background{
+        0%{color:blue;}
+        50%{color: aqua;}
+        100%{color: cadetblue;}
+        0%{color: aquamarine;}
+        
+        
+        }
+        
+        
+        #value img{
+        height: 70px;
+        width:70px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-right: 100px;
+        
+        }
+        #value button{
+        height: 80px;
+        width: 100px;
+        background-color: rgb(247, 243, 241);
+        border-radius: 45px;
+        border: none;
+        padding-left: 10px;
+        padding-right: 20px;
+        margin-left: 20px;
+        
+        }
+        
+        #value span{
+        color:rgb(190, 187, 187);
+        margin-top: 50px;
+        margin-top: 50px;
+        
+        
+        
+        }
+        #white{
+        background-color: orangered;
+        height: 90px;
+        width: 300px;
+        border-radius: 40px;
+        
+        }
+        #made{
+        display: flex;
+        
+        }
+        #green img{
+        height: 400px;
+        width: 400px;
+        border-radius: 60%;
+        object-fit: cover;
+        
+        
+        }
+        #green span{
+        color: orangered;
+        
+        }
+        #green a{
+        color: orangered;
+        
+        }
+        #inspire img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        
+        }
+        #had{
+        display: flex;
+        
+        }
+        #crane{
+        display: flex;
+        justify-content: space-around;
+        justify-content: space-evenly;
+        
+        }
+        #inspire{
+        color: orangered;
+        text-align: right;
+        
+        
+        }
+        #inspire a{
+        color:orangered;
+        
+        }
+        #if{
+            display: flex;
+            justify-content: space-around;
+           justify-content: space-evenly;
+        }
+        #if img{
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        
+        
+        }
+        #input img{
+            height: 200px;
+            width: 200px;
+            object-fit: cover;
+            border-radius: 20px;
+        
+        }
+        #input{
+            display: flex;
+            justify-content: space-around;
+           justify-content: space-evenly;  
+        }
+        #click{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        
+        
+        }
+        #previous{
+        height: 30px;
+        width: 30px;
+        background-color:white ;
+        color: orangered;
+        border: solid orangered;
+        
+        
+        
+        }
+        #next{
+            height: 30px;
+            width: 30px;
+            background-color: orangered;
+            color: white;
+        }
+        #back img{
+            filter: blur(4px);
+        -webkit-filter:(6px) ;
+        height: 400px;
+        width: 900px;
+        display: flex;
+        
+        
+        }
+        #if a{
+            color: orangered;
+        
+        }
+        #input a{
+        color: orangered;
+        
+        }
+        #offer{
+        font-size: larger;
+        text-align: center;
+        font-size: 40px;
+        }
+        #if p{
+        color: grey;
+        
+        }
+        #input p{
+        color: grey;
+        
+        }
+        #meals{
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: x-large;
+        }
+        #maker2{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        background-color: maroon;
+        border-radius: 10px;
+        width: 500px;
+        margin-left:1px;
+        color: white;
+        }
+        
+        #summer p{
+        font-size: xx-large;
+        color: yellow;
+        
+        }
+        #summer button{
+        color: white;
+        background-color: yellow;
+        width: 150px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        }
+        #summer{
+        margin-top:40px ;
+        
+        }
+        #about{
+        text-align: center;
+        font-size: xx-large;
+        color:orangered ;
+        
+        }
+        
+        #them{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        justify-content: space-around;
+        font-size: large;
+        
+        }
+        #reel img{
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+        
+        
+        }
+        
+        #bright{
+        display: flex;
+        gap: 20px;
+        justify-content: space-evenly;
+        
+        }
+        #icons img{
+        height: 50px;
+        width: 50px;
+        gap: 20px;
+        
+        
+        }
+        #icons{
+        margin-bottom: 100px;
+        
+        }
+        
+        
+        #fame{
+        display: flex;
+        gap: 50px;
+        color: white;
+        margin-top: 100px;
+        
+        
+        }
+        #color span{
+        font-size: large;
+        font-weight:bold ;
+        
+        }
+        #icons a{
+        color: orangered;
+        text-decoration: none;
+        
+        }
+        #take{
+        background-color:rgb(39, 38, 38);
+        margin-bottom:100px ;
+        margin-bottom:50px;
+        width: 500px;
+        height: 525px;
+        
+        } 
+        #pace span{
+        font-weight: bold;
+        font-size: large;
+        word-spacing: normal;
+        
+        }
+         #pace{
+        margin-bottom: 50px;
+        
+        } 
+        #icons span{
+        color: white;
+        font-size: large;
+        font-weight: bold;
+        margin-top: 200px;
+        
+        
+        }
+        #icons p{
+        color: white;
+        margin-top: 200px;
+            
+        }
+        #put p{
+        color :white;
+        
+        }
+        #vans button{
+        height: 30px;
+        width: 100px;
+        border-radius: 10px;
+        color: white;
+        background-color: orangered;
+        border: none;
+        }
+        #put img{
+        margin-top: 100px;
+        
+        
+        
+        }
+        #tree span{
+        margin-top: 100px;
+        
+        }
+        
+        
+        #info{
+         padding:20px ;   
+         background-color: rgb(119, 119, 190);
+         color: white;
+         margin-bottom:15px ;
+        }
+        
+        
+        #closebtn:hover{
+        margin-left:15px ;
+        color: white;
+        font-weight:bolder ;
+        float: left;
+        font-size: 23px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+        
+        }
+          
+         #closebtn:hover{
+            color: grey;
+         }
+         #master img{
+        height: 200px;
+        width: 200px;
+        margin-right: 200px;
+        
+         }
+        #major{
+            display: flex;
+        gap:20px;
+        
+        
+        }
+        #soon {
+        
+            margin-right: 70px;
+        }
+        #vans input{
+        width: 200px;
+        
+        }
+        #vans a{
+         text-decoration: none; 
+         color: beige;  
+        
+        
+        }
+    }

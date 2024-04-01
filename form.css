@@ -1,0 +1,43 @@
+#form{
+    background-image: url(download.png);
+    opacity: 0.;
+    background-repeat: repeat;
+    height: 500px;
+    width: 700px;
+    }
+    #click{
+    margin-top: 50px;
+    margin-right: 300px;
+    }
+    #click button{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    
+    }
+    #form{
+        background-color: rgb(253, 218, 202); 
+        display: flex;
+        gap: 50px;
+        height: 500px;
+        width: 950px;
+        justify-content: center;
+        }
+        input{
+        width: 300px;
+        height: 40px;
+        margin-top: 100px;
+        border-radius: 10px;
+        margin-right: 120px;
+        
+        }
+        #welcome span{
+        margin-left: 20px;
+        font-size: xx-large;
+        justify-content: center;
+        margin-left: 400px;
+        text-align: center;
+        color: white;
+        }
+        
+    
