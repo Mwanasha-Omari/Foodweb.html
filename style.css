@@ -96,9 +96,7 @@ padding-bottom: 100px;
 padding-left: 300px;
 margin-bottom: 50px;
 
-
 }
-
 
 
 #root{
@@ -356,15 +354,14 @@ animation: color-change 1s infinite;
   100%{color: orange;}
 }
 
-@keyframes color-background{
-0%{color:blue;}
-50%{color: aqua;}
-100%{color: cadetblue;}
-0%{color: aquamarine;}
 
+#odd span{
 
+animation: color-change is infinite;
 }
-
+@keyframes color-change{
+    50%{color:grey}
+}
 
 #value img{
 height: 70px;
@@ -691,6 +688,9 @@ cursor: pointer;
 transition: 0.3s;
 
 }
+marquee{
+width: 200px;
+}
   
  #closebtn:hover{
     color: grey;
@@ -719,6 +719,10 @@ width: 200px;
  text-decoration: none; 
  color: beige;  
 
+
+}
+script{
+color: white;
 
 }
 
